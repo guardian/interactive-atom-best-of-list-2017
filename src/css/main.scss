@@ -1,5 +1,5 @@
 @import "mq";
-@import "fonts";
+//@import "fonts";
 
 // Uncomment for embeds
 //@import "embed";
@@ -11,3 +11,687 @@
 .interactive-atom {
     margin: 0 !important;
 }
+
+
+.year-review, .year-review--standfirst-wrapper {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        h1 {
+            font-family: "Guardian Egyptian Web", Georgia, serif;
+            color: rgba(249,249,249,0.8);
+            font-size: 36px
+        }
+
+        h2 {
+            font-family: "Guardian Egyptian Web", Georgia, serif;
+            color: #FFF;
+            font-size: 24px;
+            line-height:30px;
+            font-weight: 200 !important;
+        }
+
+        .year-review {
+            background-color: #fdeef1;
+           
+                      
+        }
+        
+        .year-review--standfirst-wrapper {
+            top: 80%;
+            width: 90%;
+          /*  -webkit-transform: translateX(-50%);
+            transform: translateX(-50%) translateY(-50%);*/
+            display: none
+        } 
+        .year-review-standfirst {
+            width: 300px;
+            margin-left: 30px
+        }
+        @media all and (min-width: 61.25em) {
+            .year-review--standfirst-wrapper {
+                width: 980px;
+                display: block
+            }
+            .year-review-standfirst {
+            width: 480px;
+            margin-left: 30px
+        }
+        }
+        @media all and (min-width: 71.25em) {
+            .year-review--standfirst-wrapper {
+                width: 1140px;
+                margin-left: 160px
+            }
+        }
+        @media all and (min-width: 81.25em) {
+            .year-review--standfirst-wrapper {
+                width: 1300px;
+                margin-left: 220px
+            }
+        }
+       
+        .year-review-type--wrapper {
+            position: relative;
+            height: 228px;
+            width: auto;
+            opacity: 0.2;
+            
+            margin-top:42px;
+
+        }
+
+        .year-review--type  {
+            max-width: 38.75rem;
+            margin: 0;
+            position: relative;
+        }
+
+        @media (min-width: 30em){
+            .year-review-type--wrapper {
+                padding-left: 1.25rem;
+                padding-right: 1.25rem;
+            }
+        }
+
+        
+        @media (min-width: 46.25em){
+            .year-review-type--wrapper {
+                max-width: 46.25rem;
+                margin: 0 auto 0 1.25rem
+            } 
+        }
+        @media (min-width: 46.25em){
+            .year-review--type {
+                max-width: 46.25rem;
+            }
+        }
+       
+        @media (min-width: 61.25em){
+            .year-review-type--wrapper {
+                max-width: 61.25rem;
+                margin: 0 auto;
+                margin-left:1.25rem;
+                margin-top:60px;
+            }
+            .year-review--type {
+                margin: 0 auto;
+            }
+
+        }
+        @media (min-width: 71.25em){
+            .year-review-type--wrapper {
+                max-width: 71.25rem; 
+                margin: 0 auto;
+                margin-top:60px;
+            }
+            .year-review--type {
+                margin-left: 8.3rem;
+            }
+        }
+        @media (min-width: 81.25em){
+            .year-review-type--wrapper {
+                max-width: 81.25rem;  
+            }
+            .year-review--type {
+                margin-left: 13.3rem;
+            }
+        }
+        
+        
+        
+        
+
+
+
+
+
+            
+            
+
+
+
+        /*@media all and (min-width: 61.25em) {
+            .year-review--type {
+                max-width:980px;
+                top: 120px;
+                z-index: -100;
+                background-size: cover;
+                height: 360px;
+                opacity: 0.75;
+            }
+        }
+        @media all and (min-width: 71.25em) {
+            .year-review--type {
+                top: 120px;
+                height:480px;
+                max-width: 1300px;
+                
+            }
+        }
+        @media all and (min-width: 81.25em) {
+            .year-review--type {
+                max-width: 1300px;
+                
+              
+               /* -ms-transform: translateX(-50%) ;
+                -moz-transform: translateX(-50%);
+                -webkit-transform: translateX(-50%)
+            }
+        }*/
+
+
+
+
+        
+
+.year-review--cut {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    left:30%;
+    opacity: 0;
+    height:auto;
+    margin-bottom: 0px;
+
+}
+
+.year-review--cut.one {
+          width: 160px;
+    }
+    .year-review--cut.two {
+
+          width: 190px;
+    }
+    .year-review--cut.three {
+
+          width: 190px;
+    }
+.year-review--cut img {
+    width: 100%;
+    height: auto;
+    display: block
+}
+
+
+
+
+
+
+@media all and (min-width: 740px) {
+    .year-review--cut {
+
+        left:55%;
+    }
+    .year-review--cut.one {
+
+        width: 350px;
+    }
+    .year-review--cut.two {
+
+        width: 400px;
+    }
+    .year-review--cut.three {
+
+        width: 400px;
+    }
+}
+
+
+
+
+
+/* Start aniOne*/
+@keyframes aniOne{
+
+  0% {
+    opacity:0;
+    transform:  translate(40px,0px)  ;
+  }
+  5% {
+    opacity:0;
+    transform:  translate(40px,0px);
+  }
+  10% {
+    opacity:1;
+    transform:  translate(20px,0px);
+  }
+  30% {
+    opacity:1;
+    transform:  translate(20px,0px);
+  }
+  33% {
+    opacity:0;
+    transform:  translate(0px,0px);
+
+  }
+  100% {
+    opacity:0;
+    transform:  translate(0px,0px);
+
+  }
+}
+
+@-moz-keyframes aniOne{
+  0% {
+    opacity:0;
+    -moz-transform:  translate(70px,0px)  ;
+  }
+
+  5% {
+    opacity:0;
+    -moz-transform:  translate(70px,0px);
+  }
+  10% {
+    opacity:1;
+    -moz-transform:  translate(20px,0px);
+  }
+  30% {
+    opacity:1;
+    -moz-transform:  translate(20px,0px);
+  }
+  33% {
+    opacity:0;
+    -moz-transform:  translate(-80px,0px);
+
+  }
+  100% {
+    opacity:0;
+    -moz-transform:  translate(-80px,0px);
+
+  }
+
+}
+
+@-webkit-keyframes aniOne {
+  
+  0% {
+    opacity:0;
+    -webkit-transform:  translate(40px,0px)  ;
+  }
+  5% {
+    opacity:0;
+    -webkit-transform:  translate(70px,0px);
+  }
+  10% {
+    opacity:1;
+    -webkit-transform:  translate(20px,0px);
+  }
+  30% {
+    opacity:1;
+    -webkit-transform:  translate(20px,0px);
+  }
+  33% {
+    opacity:0;
+    -webkit-transform:  translate(-80px,0px);
+
+  }
+  100% {
+    opacity:0;
+    -webkit-transform:  translate(-80px,0px);
+
+  }
+}
+
+@-ms-keyframes aniOne {
+   0% {
+    opacity:0;
+    -ms-transform:  translate(40px,0px)  ;
+  }
+
+  15% {
+    opacity:1;
+    -ms-transform:  translate(20px,0px);
+  }
+  21% {
+    opacity:1;
+    -ms-transform:  translate(20px,0px);
+  }
+  45% {
+    opacity:1;
+    -ms-transform:  translate(20px,0px);
+  }
+  50% {
+    opacity:0;
+    -ms-transform:  translate(-30px,0px);
+
+  }
+  100% {
+    opacity:0;
+    -ms-transform:  translate(-30px,0px);
+
+  }
+}
+/* END aniOne*/
+
+/* Start aniTwo*/
+@keyframes aniTwo{
+   0% {
+    opacity:0;
+    transform:  translate(-20px,0px);
+
+  } 
+  33% {
+    opacity:0;
+    transform:  translate(-20px,0px);
+
+  } 
+  40% {
+    opacity:1;
+    transform:  translate(20px,0px);
+  }
+  60% {
+    opacity:1;
+    transform:  translate(20px,0px);
+  }
+
+  66% {
+    opacity:0;
+    transform:  translate(40px,0px);
+  }
+
+  100% {
+    opacity:0;
+    transform:  translate(40px,0px)  ;
+  }
+  
+}
+
+
+@-moz-keyframes aniTwo{
+
+
+  0% {
+    opacity:0;
+    -moz-transform:  translate(-20px,0px);
+
+  } 
+  33% {
+    opacity:0;
+    -moz-transform:  translate(-20px,0px);
+
+  } 
+  40% {
+    opacity:1;
+    -moz-transform:  translate(20px,0px);
+  }
+  60% {
+    opacity:1;
+    -moz-transform:  translate(20px,0px);
+  }
+
+  66% {
+    opacity:0;
+    -moz-transform:  translate(40px,0px);
+  }
+
+  100% {
+    opacity:0;
+    -moz-transform:  translate(40px,0px)  ;
+  }
+
+
+}
+
+@-webkit-keyframes aniTwo {
+
+0% {
+    opacity:0;
+    -webkit-transform:  translate(-20px,0px);
+
+  } 
+  33% {
+    opacity:0;
+    -webkit-transform:  translate(-20px,0px);
+
+  } 
+  40% {
+    opacity:1;
+    -webkit-transform:  translate(20px,0px);
+  }
+  60% {
+    opacity:1;
+    -webkit-transform:  translate(20px,0px);
+  }
+
+  66% {
+    opacity:0;
+    -webkit-transform:  translate(40px,0px);
+  }
+
+  100% {
+    opacity:0;
+    -webkit-transform:  translate(40px,0px)  ;
+  }  
+  
+}
+
+@-ms-keyframes aniTwo {
+   0% {
+    opacity:0;
+    -ms-transform:  translate(-20px,0px);
+
+  } 
+  33% {
+    opacity:0;
+    -ms-transform:  translate(-20px,0px);
+
+  } 
+  40% {
+    opacity:1;
+    -ms-transform:  translate(20px,0px);
+  }
+  60% {
+    opacity:1;
+    -ms-transform:  translate(20px,0px);
+  }
+
+  66% {
+    opacity:0;
+    -ms-transform:  translate(40px,0px);
+  }
+
+  100% {
+    opacity:0;
+    -ms-transform:  translate(40px,0px)  ;
+  } 
+  
+}
+
+/*End aniTwo*/
+
+
+/*Start aniThree*/
+
+@keyframes aniThree{
+
+0% {
+    opacity:0;
+
+
+  } 
+  66% {
+    opacity:0;
+   
+
+  } 
+  81% {
+    opacity:1;
+ 
+  }
+  87% {
+    opacity:1;
+  
+  }
+
+  100% {
+    opacity:0;
+ 
+  }
+}
+
+@-moz-keyframes aniThree{
+
+  0% {
+    opacity:0;
+
+
+  } 
+  66% {
+    opacity:0;
+
+
+  } 
+  81% {
+    opacity:1;
+
+  }
+  87% {
+    opacity:1;
+
+  }
+
+  100% {
+    opacity:0;
+ 
+  }
+  
+}
+
+@-webkit-keyframes aniThree {
+  
+0% {
+    opacity:0;
+
+
+  } 
+  66% {
+    opacity:0;
+
+
+  } 
+  81% {
+    opacity:1;
+
+  }
+  87% {
+    opacity:1;
+
+  }
+
+  100% {
+    opacity:0;
+
+  }
+
+
+ 
+  
+}
+
+@-ms-keyframes aniThree {
+    0% {
+    opacity:0;
+
+  } 
+  66% {
+    opacity:0;
+
+  } 
+  81% {
+    opacity:1;
+
+  }
+  87% {
+    opacity:1;
+
+  }
+
+  100% {
+    opacity:0;
+
+  }
+  
+}
+/* END aniThree*/
+
+
+.year-review--images.active.setone .year-review--cut.one {
+    animation: aniOne infinite;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+    -webkit-animation: aniOne infinite;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation: aniOne infinite;
+    -moz-animation-duration: 15s;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation: aniOne infinite;
+    -ms-animation-duration: 15s;
+    -ms-animation-fill-mode: forwards;
+}
+.year-review--images.active.setone .year-review--cut.two {
+    animation: aniTwo infinite;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+    -webkit-animation: aniTwo infinite;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation: aniTwo infinite;
+    -moz-animation-duration: 15s;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation: aniTwo infinite;
+    -ms-animation-duration: 15s;
+    -ms-animation-fill-mode: forwards;
+}
+
+.year-review--images.active.setone .year-review--cut.three {
+    animation: aniThree infinite;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+    -webkit-animation: aniThree infinite;
+    -webkit-animation-duration: 15s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation: aniThree infinite;
+    -moz-animation-duration: 15s;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation: aniThree infinite;
+    -ms-animation-duration: 15s;
+    -ms-animation-fill-mode: forwards;
+}
+
+       
+        /*features-main-1#7d0068 features-main-2#b82266 features-support-1#951c55 features-support-2#4e0375 features-support-3#fdadba features-support-4#dc2a7d*/
+        .review-background {
+            background: linear-gradient(30deg, #4e0375, #fdadba);  
+            background-size: 200% 200%;
+            -webkit-animation: AnimationName 10s ease infinite;
+            -moz-animation: AnimationName 10s ease infinite;
+            -o-animation: AnimationName 10s ease infinite;
+            animation: AnimationName 10s ease infinite;
+            min-height: 100% !important;
+            min-width:100%;
+        }
+
+        @-webkit-keyframes AnimationName {
+            0%{background-position:50% 0%}
+            50%{background-position:51% 100%}
+            100%{background-position:50% 0%}
+        }
+        @-moz-keyframes AnimationName {
+            0%{background-position:50% 0%}
+            50%{background-position:51% 100%}
+            100%{background-position:50% 0%}
+        }
+        @-o-keyframes AnimationName {
+            0%{background-position:50% 0%}
+            50%{background-position:51% 100%}
+            100%{background-position:50% 0%}
+        }
+        @keyframes AnimationName {
+            0%{background-position:50% 0%}
+            50%{background-position:51% 100%}
+            100%{background-position:50% 0%}
+        }
