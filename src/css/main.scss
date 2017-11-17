@@ -13,6 +13,18 @@
 }
 
 
+.immersive-main-media__headline-container, .immersive-main-media__headline-container--dark{
+	// background-color: none !important;
+	// background-image: none !important;
+	// background: none;
+
+	background-color: rgba(255,0,0,0.1) !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,0,0,0.1)), to(#161616))  !important; 
+    background: -webkit-linear-gradient(rgba(255,0,0,0.1), #161616)  !important; 
+    background: linear-gradient(rgba(255,0,0,0.1), #161616) !important; 
+    display: none !important;
+}
+
 .year-review, .year-review--standfirst-wrapper {
             position: absolute;
             bottom: 0;
@@ -140,52 +152,7 @@
             }
         }
         
-        
-        
-        
-
-
-
-
-
-            
-            
-
-
-
-        /*@media all and (min-width: 61.25em) {
-            .year-review--type {
-                max-width:980px;
-                top: 120px;
-                z-index: -100;
-                background-size: cover;
-                height: 360px;
-                opacity: 0.75;
-            }
-        }
-        @media all and (min-width: 71.25em) {
-            .year-review--type {
-                top: 120px;
-                height:480px;
-                max-width: 1300px;
-                
-            }
-        }
-        @media all and (min-width: 81.25em) {
-            .year-review--type {
-                max-width: 1300px;
-                
-              
-               /* -ms-transform: translateX(-50%) ;
-                -moz-transform: translateX(-50%);
-                -webkit-transform: translateX(-50%)
-            }
-        }*/
-
-
-
-
-        
+               
 
 .year-review--cut {
     position: absolute;
@@ -209,11 +176,11 @@
 
           width: 190px;
     }
-.year-review--cut img {
-    width: 100%;
-    height: auto;
-    display: block
-}
+	.year-review--cut img {
+	    width: 100%;
+	    height: auto;
+	    display: block
+	}
 
 
 
@@ -662,36 +629,44 @@
     -ms-animation-fill-mode: forwards;
 }
 
-       
-        /*features-main-1#7d0068 features-main-2#b82266 features-support-1#951c55 features-support-2#4e0375 features-support-3#fdadba features-support-4#dc2a7d*/
-        .review-background {
-            background: linear-gradient(30deg, #4e0375, #fdadba);  
-            background-size: 200% 200%;
-            -webkit-animation: AnimationName 10s ease infinite;
-            -moz-animation: AnimationName 10s ease infinite;
-            -o-animation: AnimationName 10s ease infinite;
-            animation: AnimationName 10s ease infinite;
-            min-height: 100% !important;
-            min-width:100%;
-        }
+$features-main-1:#7d0068 ;
+$features-main-2: #b82266 ;
+$features-support-1: #951c55 ;
+$features-support-2: #4e0375 ;
+$features-support-3: #fdadba; 
+$features-support-4: #dc2a7d;
 
-        @-webkit-keyframes AnimationName {
-            0%{background-position:50% 0%}
-            50%{background-position:51% 100%}
-            100%{background-position:50% 0%}
-        }
-        @-moz-keyframes AnimationName {
-            0%{background-position:50% 0%}
-            50%{background-position:51% 100%}
-            100%{background-position:50% 0%}
-        }
-        @-o-keyframes AnimationName {
-            0%{background-position:50% 0%}
-            50%{background-position:51% 100%}
-            100%{background-position:50% 0%}
-        }
-        @keyframes AnimationName {
-            0%{background-position:50% 0%}
-            50%{background-position:51% 100%}
-            100%{background-position:50% 0%}
-        }
+$color1: $features-support-2;
+$color2: $features-support-3;
+
+.review-background {
+    background: linear-gradient(30deg, $color1, $color2);  
+    background-size: 200% 200%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    -o-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+    min-height: 100% !important;
+    min-width:100%;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
