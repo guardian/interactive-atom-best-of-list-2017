@@ -1,3 +1,73 @@
+@keyframes aniZero{
+  0% {
+    opacity:0;
+    transform:  translate(40px,0px)  ;
+  }
+
+  10% {
+    opacity:1;
+    transform:  translate(20px,0px);
+  }
+  100% {
+    opacity:1;
+  }
+ }
+
+
+@-moz-keyframes aniZero{
+  0% {
+    opacity:0;
+    -moz-transform:  translate(70px,0px)  ;
+  }
+
+  10% {
+    opacity:1;
+    -moz-transform:  translate(20px,0px);
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes aniZero {
+  
+  0% {
+    opacity:0;
+    -webkit-transform:  translate(40px,0px)  ;
+  }
+
+  10% {
+    opacity:1;
+    -webkit-transform:  translate(20px,0px);
+  }
+
+  100% {
+      opacity:1;
+    }
+  
+  
+}
+
+@-ms-keyframes aniZero {
+   0% {
+    opacity:0;
+    -ms-transform:  translate(40px,0px)  ;
+  }
+
+  10% {
+    opacity:1;
+    -ms-transform:  translate(20px,0px);
+  }
+  100% {
+    opacity:1;
+  }
+}
+/* END aniZero*/
+
+
+
+
+
 /* Start aniOne*/
 @keyframes aniOne{
 
@@ -373,20 +443,7 @@
 /* END aniThree*/
 
 
-.year-review--images.active.setone .year-review--cut.one {
-    animation: aniZero infinite;
-    animation-duration: 15s;
-    animation-fill-mode: forwards;
-    -webkit-animation: aniZero infinite;
-    -webkit-animation-duration: 15s;
-    -webkit-animation-fill-mode: forwards;
-    -moz-animation: aniZero infinite;
-    -moz-animation-duration: 15s;
-    -moz-animation-fill-mode: forwards;
-    -ms-animation: aniZero infinite;
-    -ms-animation-duration: 15s;
-    -ms-animation-fill-mode: forwards;
-}
+
 
 
 .year-review--images.active.setone .year-review--cut.one {

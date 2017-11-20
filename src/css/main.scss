@@ -58,9 +58,7 @@ $color2: $features-support-3;
         }
 
         .year-review {
-            background-color: #fdeef1;
-           
-                      
+            background-color: #fdeef1;              
         }
         
         .year-review--standfirst-wrapper {
@@ -162,37 +160,58 @@ $color2: $features-support-3;
             .year-review--type {
                 margin-left: 13.3rem;
             }
-        }
-        
-               
+}
 
 .year-review--cut {
     position: absolute;
     bottom: 0;
     display: block;
     left:30%;
-    opacity: 0;
+    // opacity: 0;
     height:auto;
     margin-bottom: 0px;
 
 }
 
+.year-review--images.active.setone .year-review--cut.zero{
+        width: 160px;
+
+             @include mq(tablet){
+                left:55%;
+                width: 350px;
+             }
+
+        animation: aniZero linear forwards;
+        animation-duration: 15s;
+        animation-fill-mode: forwards;
+        -webkit-animation: aniZero linear forwards;
+        -webkit-animation-duration: 15s;
+        -webkit-animation-fill-mode: forwards;
+        -moz-animation: aniZero linear forwards;
+        -moz-animation-duration: 15s;
+        -moz-animation-fill-mode: forwards;
+        -ms-animation: aniZero linear forwards;
+        -ms-animation-duration: 15s;
+        -ms-animation-fill-mode: forwards;
+    }
+
 .year-review--cut.one {
           width: 160px;
     }
-    .year-review--cut.two {
 
-          width: 190px;
-    }
-    .year-review--cut.three {
+.year-review--cut.two {
+      width: 190px;
+}
+.year-review--cut.three {
 
-          width: 190px;
-    }
-	.year-review--cut img {
-	    width: 100%;
-	    height: auto;
-	    display: block
-	}
+      width: 190px;
+}
+
+.year-review--cut img {
+    width: 100%;
+    height: auto;
+    display: block
+}
 
 
 
@@ -201,7 +220,6 @@ $color2: $features-support-3;
 
 @media all and (min-width: 740px) {
     .year-review--cut {
-
         left:55%;
     }
     .year-review--cut.one {
