@@ -1,12 +1,11 @@
 {
-  "name": "interactive-atom-template",
-  "description": "Interactive atom base template",
+  "name": "interactive-es6",
+  "version": "0.0.0",
+  "homepage": "https://github.com/guardian/interactive-es6",
   "authors": [
-    "Will Franklin <will.franklin@guardian.co.uk>"
+    "Matt Osborn <matthew.osborn@theguardian.com>"
   ],
-  "license": "ISC",
-  "homepage": "https://github.com/guardian/interactive-atom-template",
-  "moduleType": [],
+  "license": "MIT",
   "private": true,
   "ignore": [
     "**/.*",
@@ -15,7 +14,9 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
-    "guss-typography": "^3.1.1"
+  "dependencies": {
+    "guss-typography": "~3.1.1",
+    "sass-mq": "~3.1.2",
+    "pasteup-palette": "~3.4.2"
   }
 }
