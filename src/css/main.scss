@@ -1,5 +1,206 @@
 @import "fonts";
-@import "palette";
-@import "mq";
-@import "general";
-@import "share";
+
+figure{
+	margin:0;
+}
+
+
+figure.element--immersive {
+  z-index: 100; 
+}
+
+// using this to float map thumbnails OR adapt to supporting tag
+// 8.75rem = 140px
+
+
+.img--portrait{
+        width:120px !important;   
+        margin: 0 1rem 1rem 0 !important;
+        float: right !important;
+        display:none !important;
+
+    @media screen and (min-width: 740px) {
+        width:140px !important;
+        width: 140px !important;
+        margin: 0 0 1rem 1rem !important;
+        float: right !important;
+        display:inline-block !important;
+    }
+}
+
+
+.element--supporting:nth-of-type(0) {
+  margin-top: 1em !important;
+
+} 
+
+.element--supporting{
+    // float:right !important;
+    
+    width:6.75rem !important;
+    margin-top: 3px !important;
+    margin-bottom: 0.75rem !important;
+    margin-right: 0rem !important;
+    margin-left: 0 !important;
+
+    @media screen and (min-width: 980px) {
+        margin-left: -6.75rem !important;
+        
+      }
+} 
+
+.element--supporting img{
+    width:90px !important;
+    height:90px !important;
+    -webkit-border-radius: 100px !important;
+    -moz-border-radius: 100px !important;
+    border-radius: 100px !important;
+    
+}
+
+
+// p sub::before {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   content: " ";
+//   height: 1px;
+//   width: 140px;
+//   background: #484f53; 
+
+// }p em { }
+p sub {
+
+  position: relative;
+  display: inline; 
+  font-size: 18px !important;
+  line-height: 24px !important;
+  font-family: "Guardian Egyptian Web", Georgia, serif;
+  font-weight: normal;
+  font-weight: 500;
+  color:  #b82266 !important;  
+  vertical-align: none !important;
+  
+
+      @media screen and (min-width: 940px) {
+        margin-top: 20px !important;
+        padding-top: 10px !important;
+        font-size: 18px !important;
+        line-height: 24px !important;
+        font-family: "Guardian Egyptian Web", Georgia, serif;
+        font-weight: normal;
+    }
+
+}
+
+
+#article h2{
+  position: relative;
+  display: inline; 
+  font-style: normal !important;
+  font-size: 1.25rem;
+  line-height: 1rem;
+  font-family: "Guardian Egyptian Web", Georgia, serif;
+  font-weight: normal;
+  font-weight: 400;
+  color: #b82266;  
+  vertical-align: none !important;
+  
+
+      @media screen and (min-width: 940px) {
+        margin-top: 20px !important;
+        padding-top: 10px !important;
+        font-size: 2.25rem;
+        line-height: 1.8rem;
+        font-family: "Guardian Egyptian Web", Georgia, serif;
+        font-weight: normal;
+        font-weight: 200; 
+       
+    }
+}
+
+#article{
+  .embed_button--large, .embed_button--large a  {
+          border-radius: 1000px;
+          font-size: 13px;
+          line-height:20px; 
+          font-weight: 700;
+          text-decoration: none;
+          display: -webkit-inline-box;
+          display: -webkit-inline-flex;
+          display: -ms-inline-flexbox;
+          display: inline-flex;
+          -webkit-box-pack: justify;
+          -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+          -ms-flex-align: center;
+          align-items: center;
+          padding-left: 10px;
+          background-color: #951c55;
+          color:white !important;
+          cursor:pointer;
+          margin-bottom: 24px;
+      }
+
+    .icon {
+          width: 36px;
+          height: 36px;
+          display: inline-block;
+          vertical-align: middle;
+          
+          svg{
+            fill: #FFF;
+          }
+      }
+  
+
+
+        .left-rule:before,
+        .right-rule:before {
+            content: '';
+            float: left;
+            width: 43%;
+            height: 1px;
+            border-top: 1px dotted #bdbdbd;
+            margin-top: 12px
+        }
+        .right-rule:before {
+            content: '';
+            float: right
+        }
+        svg {
+            display: block;
+            margin: auto
+        }
+        p {
+            margin: 0px
+        }
+        #wrapper {
+            margin: 0px
+        }
+}
+
+
+figure[data-alt="divider"] {
+  
+}  
+
+
+
+.block-share{
+  display:none !important;
+}
+
+.caption--img {
+    padding-bottom: 0 !important;
+}
+
+
+.inline-expand-image {
+  display: none !important;
+}
+
+
