@@ -132,7 +132,7 @@
                 margin-top:60px;
             }
             .year-review--type {
-                margin: 0 auto;
+                margin: 0 20px;
             }
 
         }
@@ -168,43 +168,25 @@
 
 }
 
-.year-review--cut.one {
-          width: 160px;
-    }
-    .year-review--cut.two {
+.year-review--cut.one, .year-review--cut.two, .year-review--cut.three {
+          left:25%;
+          width: 75%;
 
-          width: 190px;
-    }
-    .year-review--cut.three {
+         @include mq(mobileLandscape){
+            left:55%;
+            width:240px;
+         }
 
-          width: 190px;
+         @include mq(desktop){
+            left:55%;
+            width:350px;
+         }
     }
 	.year-review--cut img {
 	    width: 100%;
 	    height: auto;
 	    display: block
 	}
-
-
-@media all and (min-width: 740px) {
-    .year-review--cut {
-
-        left:55%;
-    }
-    .year-review--cut.one {
-
-        width: 350px;
-    }
-    .year-review--cut.two {
-
-        width: 400px;
-    }
-    .year-review--cut.three {
-
-        width: 400px;
-    }
-}
-
 
 .year-review--images.active.setone .year-review--cut.one {
     animation: aniOne infinite;
@@ -263,30 +245,30 @@ $color2: $features-support-3;
 .review-background {
     background: linear-gradient(30deg, $color1, $color2);  
     background-size: 200% 200%;
-    -webkit-animation: AnimationName 10s ease infinite;
-    -moz-animation: AnimationName 10s ease infinite;
-    -o-animation: AnimationName 10s ease infinite;
-    animation: AnimationName 10s ease infinite;
+    -webkit-animation: gradientAni 10s ease infinite;
+    -moz-animation: gradientAni 10s ease infinite;
+    -o-animation: gradientAni 10s ease infinite;
+    animation: gradientAni 10s ease infinite;
     min-height: 100% !important;
     min-width:100%;
 }
 
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes gradientAni {
     0%{background-position:50% 0%}
     50%{background-position:51% 100%}
     100%{background-position:50% 0%}
 }
-@-moz-keyframes AnimationName {
+@-moz-keyframes gradientAni {
     0%{background-position:50% 0%}
     50%{background-position:51% 100%}
     100%{background-position:50% 0%}
 }
-@-o-keyframes AnimationName {
+@-o-keyframes gradientAni {
     0%{background-position:50% 0%}
     50%{background-position:51% 100%}
     100%{background-position:50% 0%}
 }
-@keyframes AnimationName {
+@keyframes gradientAni {
     0%{background-position:50% 0%}
     50%{background-position:51% 100%}
     100%{background-position:50% 0%}
