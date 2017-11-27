@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "embed.css",
+	"sources": [
+		"../src/css/embed.scss"
+	],
+	"mappings": "",
+	"names": []
+}

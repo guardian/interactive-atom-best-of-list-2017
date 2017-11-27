@@ -1,4 +1,5 @@
 @import "fonts";
+@import "mq";
 
 figure{
 	margin:0;
@@ -11,6 +12,7 @@ figure.element--immersive {
 
 // using this to float map thumbnails OR adapt to supporting tag
 // 8.75rem = 140px
+
 
 
 .img--portrait{
@@ -27,6 +29,8 @@ figure.element--immersive {
         display:inline-block !important;
     }
 }
+
+
 
 
 .element--supporting:nth-of-type(0) {
@@ -103,7 +107,7 @@ p sub {
   font-family: "Guardian Egyptian Web", Georgia, serif;
   font-weight: normal;
   font-weight: 400;
-  color: #b82266;  
+  color: #b82266 !important;  
   vertical-align: none !important;
   
 
@@ -202,5 +206,48 @@ figure[data-alt="divider"] {
 .inline-expand-image {
   display: none !important;
 }
+
+figure.element.element--thumbnail {
+    margin-bottom: 12px !important;
+}
+figure.element.element--thumbnail:first-of-type {
+   
+    @include mq(leftCol){
+      margin-top: 72px !important;
+    }
+    
+}
+
+.figure-wide{
+  display:none !important;
+
+    @include mq(tablet){
+      display:block !important;
+    }
+
+}
+
+.prose{
+  h2{
+      margin: 12px 0 9px !important;
+      color: #b82266 !important;
+  }
+  p{
+    sub{
+      font-size: 18px !important;
+      line-height:20px !important;
+   }
+  }
+  sub{
+    font-size: 18px !important;
+    line-height:20px !important;
+ }
+}
+
+
+
+ sub{
+    bottom: 0em !important;
+ }
 
 
