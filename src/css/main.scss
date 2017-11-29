@@ -120,7 +120,7 @@ $accent-color: #b82266;
     background: -webkit-linear-gradient(rgba(0,0,0,0.5), #161616);
     background: linear-gradient(rgba(0,0,0,0.5), #161616);
 
-        @include mq(tablet){
+        @include mq(desktop){
             -webkit-transition: none !important;
             transition: none !important;
             background-color: none !important;
@@ -132,8 +132,9 @@ $accent-color: #b82266;
 
 .element-atom {
 
-    iframe{
-        width:100% !important;
+    iframe{ 
+        height: calc(100vh - 160px) !important;
+        width: 100% !important;
         overflow: hidden !important;
     }
 
