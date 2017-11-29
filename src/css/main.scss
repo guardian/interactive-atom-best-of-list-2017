@@ -24,19 +24,6 @@ $color2: $features-main-2;
     margin: 0 !important;
 }
 
-
-.immersive-main-media__headline-container, .immersive-main-media__headline-container--dark{
-	// background-color: none !important;
-	// background-image: none !important;
-	// background: none;
-
-	background-color: rgba(255,0,0,0.1) !important;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,0,0,0.1)), to(#161616))  !important; 
-    background: -webkit-linear-gradient(rgba(255,0,0,0.1), #161616)  !important; 
-    background: linear-gradient(rgba(255,0,0,0.1), #161616) !important; 
-    display: none !important;
-}
-
 .year-review, .year-review--standfirst-wrapper {
             position: absolute;
             bottom: 0;
