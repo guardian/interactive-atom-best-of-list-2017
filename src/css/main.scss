@@ -1,3 +1,5 @@
+@import "mq";
+
 $accent-color: #b82266;
 
 
@@ -100,10 +102,18 @@ $accent-color: #b82266;
 
 
 .immersive-main-media__headline-container--dark {
-    -webkit-transition: none !important;
-    transition: none !important;
-    background-color: none !important;
-    background: none !important;
+    background-color: rgba(0,0,0,0.6);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.5)), to(#161616));
+    background: -webkit-linear-gradient(rgba(0,0,0,0.5), #161616);
+    background: linear-gradient(rgba(0,0,0,0.5), #161616);
+
+        @include mq(tablet){
+            -webkit-transition: none !important;
+            transition: none !important;
+            background-color: none !important;
+            background: none !important;
+        }
+    
 }
 
 
