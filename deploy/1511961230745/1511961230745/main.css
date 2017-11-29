@@ -10,7 +10,7 @@
 #article {
   /* clearfix */ }
 
-#article h2, .prose h2 {
+#article h2 {
   position: relative;
   margin-top: -52px;
   margin-right: 12px;
@@ -23,7 +23,7 @@
   color: #b82266; }
 
 @media all and (min-width: 740px) {
-  #article h2, .prose h2 {
+  #article h2 {
     margin-top: -54px;
     margin-right: 12px;
     margin-bottom: 2px;
@@ -31,10 +31,7 @@
     font-size: 22px !important;
     line-height: 28px !important; } }
 
-.prose h2 {
-  margin-top: -64px; }
-
-#article sup, .prose sup {
+#article sup {
   position: relative;
   display: inline;
   float: left !important;
@@ -48,41 +45,39 @@
   vertical-align: none !important; }
 
 @media screen and (min-width: 740px) {
-  #article sup, .prose sup {
+  #article sup {
     margin-top: 0 !important;
     font-size: 18px !important;
     line-height: 28px !important;
     margin-left: 80px !important; } }
 
-.prose sup {
-  margin-bottom: 18px; }
-
-#article sub, .prose sub {
+#article sub {
   position: relative;
   display: inline;
   font-size: 60px !important;
   margin: 0 0 36px !important;
   line-height: 24px !important;
   font-family: "Guardian Sans Web", Georgia, serif;
+  font-weight: normal;
   font-weight: 100;
   color: #b82266 !important;
   vertical-align: none !important; }
 
-#article .in-body-link--immersive, .prose .in-body-link--immersive {
+#article .in-body-link--immersive {
   color: #b82266; }
 
-#article p:before, .prose p:before {
+#article p:before {
   content: "";
   display: table;
   clear: both;
   height: 6px; }
 
-#article p:after, .prose p:after {
+#article p:after {
   content: "";
   display: table;
   clear: both; }
 
-#article .submeta__head, .prose.submeta__head {
+#article .submeta__head {
   font-size: 0.75rem !important;
   line-height: 1rem !important;
   font-family: "Guardian Text Sans Web", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
@@ -110,13 +105,6 @@
       background: none !important; } }
 
 .element-atom iframe {
-  width: 100% !important;
-  overflow: hidden !important; }
-
-.prose p.has__dropcap {
-  content: '' !important; }
-
-.prose h2.section__rule {
-  display: none !important; }
+  width: 100% !important; }
 
 /*# sourceMappingURL=main.css.map */

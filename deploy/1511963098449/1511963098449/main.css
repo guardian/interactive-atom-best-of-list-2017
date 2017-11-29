@@ -64,6 +64,7 @@
   margin: 0 0 36px !important;
   line-height: 24px !important;
   font-family: "Guardian Sans Web", Georgia, serif;
+  font-weight: normal;
   font-weight: 100;
   color: #b82266 !important;
   vertical-align: none !important; }
@@ -112,11 +113,5 @@
 .element-atom iframe {
   width: 100% !important;
   overflow: hidden !important; }
-
-.prose p.has__dropcap {
-  content: '' !important; }
-
-.prose h2.section__rule {
-  display: none !important; }
 
 /*# sourceMappingURL=main.css.map */
