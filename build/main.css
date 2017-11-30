@@ -103,7 +103,7 @@
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(#161616));
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), #161616);
   background: linear-gradient(rgba(0, 0, 0, 0.5), #161616); }
-  @media (min-width: 46.25em) {
+  @media (min-width: 61.25em) {
     .immersive-main-media__headline-container--dark {
       -webkit-transition: none !important;
       transition: none !important;
@@ -111,6 +111,7 @@
       background: none !important; } }
 
 .element-atom iframe {
+  height: calc(100vh - 160px) !important;
   width: 100% !important;
   overflow: hidden !important; }
 
