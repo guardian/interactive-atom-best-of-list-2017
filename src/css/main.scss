@@ -29,6 +29,19 @@ $accent-color: #b82266;
     font-family: "Guardian Egyptian Web", Georgia, serif;
     font-weight: 900 !important;
     color: $accent-color;
+
+        &.contributions__title contributions__title--epic{
+            position: relative;
+            margin-top: 0 !important;
+            margin-right: 12px;
+            margin-bottom: 2px;
+            margin-left: 0 !important;
+            font-size: 22px !important;
+            line-height: 27px !important;
+            font-family: "Guardian Egyptian Web", Georgia, serif;
+            font-weight: 900 !important;
+            color: #333 !important;
+        }
 }
 @media all and (min-width: 740px) {
     #article h2, .prose h2  {
@@ -146,6 +159,19 @@ $accent-color: #b82266;
 
 .prose h2.section__rule{
     display: none !important;
+}
+
+#article h2.contributions__title.contributions__title--epic, h2.contributions__title.contributions__title--epic{
+     position: relative;
+    margin-top: 0 !important;
+    margin-right: 12px;
+    margin-bottom: 2px;
+    margin-left: 0 !important;
+    font-size: 22px !important;
+    line-height: 27px !important;
+    font-family: "Guardian Egyptian Web", Georgia, serif;
+    font-weight: 900 !important;
+    color: #333 !important;
 }
 
 
