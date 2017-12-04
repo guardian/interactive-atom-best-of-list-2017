@@ -20,7 +20,7 @@
   line-height: 27px !important;
   font-family: "Guardian Egyptian Web", Georgia, serif;
   font-weight: 900 !important;
-  color: #7d0068; }
+  color: #dc2a7d; }
   #article h2.contributions__title contributions__title--epic, .prose h2.contributions__title contributions__title--epic {
     position: relative;
     margin-top: 0 !important;
@@ -77,11 +77,11 @@
   line-height: 24px !important;
   font-family: "Guardian Sans Web", Georgia, serif;
   font-weight: 100;
-  color: #7d0068 !important;
+  color: #dc2a7d !important;
   vertical-align: none !important; }
 
 #article .in-body-link--immersive, .prose .in-body-link--immersive {
-  color: #7d0068; }
+  color: #dc2a7d; }
 
 #article p:before, .prose p:before {
   content: "";
