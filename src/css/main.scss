@@ -10,6 +10,7 @@ $features-support-4: #dc2a7d;
 
 $color1: $features-support-2;
 $color2: $features-support-3;
+
             
 //@import "fonts";
 
@@ -22,19 +23,6 @@ $color2: $features-support-3;
 .element-atom,
 .interactive-atom {
     margin: 0 !important;
-}
-
-
-.immersive-main-media__headline-container, .immersive-main-media__headline-container--dark{
-	// background-color: none !important;
-	// background-image: none !important;
-	// background: none;
-
-	background-color: rgba(255,0,0,0.1) !important;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,0,0,0.1)), to(#161616))  !important; 
-    background: -webkit-linear-gradient(rgba(255,0,0,0.1), #161616)  !important; 
-    background: linear-gradient(rgba(255,0,0,0.1), #161616) !important; 
-    display: none !important;
 }
 
 .year-review, .year-review--standfirst-wrapper {
@@ -167,8 +155,8 @@ $color2: $features-support-3;
                
 
 .year-review--cut {
-    left:24%;
-    width: 64%;
+    left:20%;
+    width: 60%;
     position: absolute;
     bottom: 0;
     display: block;
@@ -243,7 +231,7 @@ $color2: $features-support-3;
 
 
 
-.review-background {
+.review-background {  
     background: linear-gradient(30deg, $color1, $color2);  
     background-size: 200% 200%;
     -webkit-animation: gradientAni 10s ease infinite;
