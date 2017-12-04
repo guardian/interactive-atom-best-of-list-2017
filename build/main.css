@@ -20,7 +20,18 @@
   line-height: 27px !important;
   font-family: "Guardian Egyptian Web", Georgia, serif;
   font-weight: 900 !important;
-  color: #b82266; }
+  color: #7d0068; }
+  #article h2.contributions__title contributions__title--epic, .prose h2.contributions__title contributions__title--epic {
+    position: relative;
+    margin-top: 0 !important;
+    margin-right: 12px;
+    margin-bottom: 2px;
+    margin-left: 0 !important;
+    font-size: 22px !important;
+    line-height: 27px !important;
+    font-family: "Guardian Egyptian Web", Georgia, serif;
+    font-weight: 900 !important;
+    color: #333 !important; }
 
 @media all and (min-width: 740px) {
   #article h2, .prose h2 {
@@ -66,11 +77,11 @@
   line-height: 24px !important;
   font-family: "Guardian Sans Web", Georgia, serif;
   font-weight: 100;
-  color: #b82266 !important;
+  color: #7d0068 !important;
   vertical-align: none !important; }
 
 #article .in-body-link--immersive, .prose .in-body-link--immersive {
-  color: #b82266; }
+  color: #7d0068; }
 
 #article p:before, .prose p:before {
   content: "";
@@ -120,5 +131,17 @@
 
 .prose h2.section__rule {
   display: none !important; }
+
+#article h2.contributions__title.contributions__title--epic, h2.contributions__title.contributions__title--epic {
+  position: relative;
+  margin-top: 0 !important;
+  margin-right: 12px;
+  margin-bottom: 2px;
+  margin-left: 0 !important;
+  font-size: 22px !important;
+  line-height: 27px !important;
+  font-family: "Guardian Egyptian Web", Georgia, serif;
+  font-weight: 900 !important;
+  color: #333 !important; }
 
 /*# sourceMappingURL=main.css.map */
