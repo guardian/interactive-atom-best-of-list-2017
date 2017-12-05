@@ -144,4 +144,11 @@
   font-weight: 900 !important;
   color: #333 !important; }
 
+.element-rich-link {
+  display: none !important; }
+  @media (min-width: 81.25em) {
+    .element-rich-link {
+      display: block !important;
+      position: absolute !important; } }
+
 /*# sourceMappingURL=main.css.map */

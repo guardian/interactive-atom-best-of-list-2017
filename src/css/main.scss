@@ -175,3 +175,13 @@ $accent-color: #dc2a7d;
 }
 
 
+.element-rich-link {
+    display:none !important;
+    @include mq(wide){
+        display:block !important;
+        position: absolute !important;
+    }
+    
+}
+
+
