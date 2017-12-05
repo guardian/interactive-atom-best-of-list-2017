@@ -155,15 +155,16 @@ $color2: $features-support-3;
                
 
 .year-review--cut {
-    left:20%;
     width: 60%;
+    max-width:220px;
     position: absolute;
     bottom: 0;
     display: block;
-    left:30%;
+    left:25%;
     opacity: 0;
     height:auto;
     margin-bottom: 0px;
+
 
       @include mq(mobileLandscape){
             left:42%;
