@@ -185,3 +185,13 @@ $accent-color: #dc2a7d;
 }
 
 
+.ad-slot--inline1{
+    position:relative;
+
+    @include mq(wide){
+        position:absolute; !important;
+        right:0 !important;
+    }
+}
+
+
