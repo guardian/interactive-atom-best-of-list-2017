@@ -174,4 +174,30 @@ $accent-color: #b82266;
     color: #333 !important;
 }
 
+.element-rich-link {
+    display:none !important;
+    @include mq(wide){
+        display:block !important;
+        position: absolute !important;
+    }
+    
+}
+
+.ad-slot--inline{
+    position:relative;
+    margin-top: 2rem !important;
+
+    @include mq(tablet){
+            float: left !important;
+            margin-top: 0.25rem !important;
+            margin-left: 80px !important;
+    }
+
+    @include mq(desktop){
+        float: none !important;
+        position:absolute !important;
+        right:0 !important;
+    }
+}
+
 

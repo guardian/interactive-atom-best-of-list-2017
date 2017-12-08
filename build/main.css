@@ -21,6 +21,17 @@
   font-family: "Guardian Egyptian Web", Georgia, serif;
   font-weight: 900 !important;
   color: #b82266; }
+  #article h2.contributions__title contributions__title--epic, .prose h2.contributions__title contributions__title--epic {
+    position: relative;
+    margin-top: 0 !important;
+    margin-right: 12px;
+    margin-bottom: 2px;
+    margin-left: 0 !important;
+    font-size: 22px !important;
+    line-height: 27px !important;
+    font-family: "Guardian Egyptian Web", Georgia, serif;
+    font-weight: 900 !important;
+    color: #333 !important; }
 
 @media all and (min-width: 740px) {
   #article h2, .prose h2 {
@@ -120,5 +131,38 @@
 
 .prose h2.section__rule {
   display: none !important; }
+
+#article h2.contributions__title.contributions__title--epic, h2.contributions__title.contributions__title--epic {
+  position: relative;
+  margin-top: 0 !important;
+  margin-right: 12px;
+  margin-bottom: 2px;
+  margin-left: 0 !important;
+  font-size: 22px !important;
+  line-height: 27px !important;
+  font-family: "Guardian Egyptian Web", Georgia, serif;
+  font-weight: 900 !important;
+  color: #333 !important; }
+
+.element-rich-link {
+  display: none !important; }
+  @media (min-width: 81.25em) {
+    .element-rich-link {
+      display: block !important;
+      position: absolute !important; } }
+
+.ad-slot--inline {
+  position: relative;
+  margin-top: 2rem !important; }
+  @media (min-width: 46.25em) {
+    .ad-slot--inline {
+      float: left !important;
+      margin-top: 0.25rem !important;
+      margin-left: 80px !important; } }
+  @media (min-width: 61.25em) {
+    .ad-slot--inline {
+      float: none !important;
+      position: absolute !important;
+      right: 0 !important; } }
 
 /*# sourceMappingURL=main.css.map */
