@@ -174,4 +174,22 @@ $accent-color: #7d0068;
     color: #333 !important;
 }
 
+.ad-slot--inline{
+    position:relative;
+    margin-top: 2rem !important;
+
+    @include mq(tablet){
+            float: left !important;
+            margin-top: 0.25rem !important;
+            margin-left: 80px !important;
+    }
+
+    @include mq(desktop){
+        float: none !important;
+        position:absolute !important;
+        right:0 !important;
+    }
+}
+
+
 
