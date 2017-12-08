@@ -162,7 +162,7 @@ $accent-color: #dc2a7d;
 }
 
 #article h2.contributions__title.contributions__title--epic, h2.contributions__title.contributions__title--epic{
-     position: relative;
+    position: relative;
     margin-top: 0 !important;
     margin-right: 12px;
     margin-bottom: 2px;
@@ -185,11 +185,19 @@ $accent-color: #dc2a7d;
 }
 
 
-.ad-slot--inline1{
+.ad-slot--inline{
     position:relative;
+    margin-top: 2rem !important;
 
-    @include mq(wide){
-        position:absolute; !important;
+    @include mq(tablet){
+            float: left !important;
+            margin-top: 0.25rem !important;
+            margin-left: 80px !important;
+    }
+
+    @include mq(desktop){
+        float: none !important;
+        position:absolute !important;
         right:0 !important;
     }
 }

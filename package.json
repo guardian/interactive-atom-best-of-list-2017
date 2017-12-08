@@ -39,6 +39,7 @@
     }
   },
   "dependencies": {
+    "grunt-aws": "^0.6.2",
     "jspm": "^0.16.34"
   }
 }
