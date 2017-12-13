@@ -183,6 +183,7 @@ $accent-color: #b82266;
     
 }
 
+
 .ad-slot--inline{
     position:relative;
     margin-top: 2rem !important;
@@ -197,6 +198,13 @@ $accent-color: #b82266;
         float: none !important;
         position:absolute !important;
         right:0 !important;
+    }
+
+    &.unruly-ad-shim{
+         @include mq(desktop){
+            position:relative !important;
+            margin: 30px 0 12px !important;
+        }
     }
 }
 
