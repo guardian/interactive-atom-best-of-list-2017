@@ -164,5 +164,9 @@
       float: none !important;
       position: absolute !important;
       right: 0 !important; } }
+  @media (min-width: 61.25em) {
+    .ad-slot--inline.unruly-ad-shim {
+      position: relative !important;
+      margin: 30px 0 12px !important; } }
 
 /*# sourceMappingURL=main.css.map */

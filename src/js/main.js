@@ -18,4 +18,22 @@ export function init(el, context, config, mediator) {
         var network = shareEl.getAttribute('data-network');
         shareEl.addEventListener('click',() => shareFn(network));
     });
+    
+
+
+    
+    document.addEventListener("scroll", scrollAdInlineAdListener);   
+
+    function scrollAdInlineAdListener(){
+        var adWidth = document.querySelector('.ad-slot--inline1').offsetWidth;
+
+        if (adWidth === 620){
+            document.querySelector('.ad-slot--inline1').classList.add('unruly-ad-shim');
+
+            document.removeEventListener("scroll", scrollAdInlineAdListener);   
+        }
+    }
 }
+
+
+  

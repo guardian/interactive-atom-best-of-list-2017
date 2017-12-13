@@ -200,6 +200,13 @@ $accent-color: #dc2a7d;
         position:absolute !important;
         right:0 !important;
     }
+
+    &.unruly-ad-shim{
+         @include mq(desktop){
+            position:relative !important;
+            margin: 30px 0 12px !important;
+        }
+    }
 }
 
 
