@@ -13,8 +13,8 @@ $news-main-2:#4bc6df;
 $multimedia-main-2: #ffbb00;
 $comment-main-2: #ff9b0b;
 
-$color1: $features-main-2;
-$color2: $news-main-2;
+$color1: $features-support-2;
+$color2: $features-support-4;
             
 //@import "fonts";
 
@@ -237,7 +237,7 @@ $color2: $news-main-2;
 
 
 .review-background {
-    background: linear-gradient(30deg, $color1, $color2);  
+    background: linear-gradient(0deg, $color1, $color2);  
     background-size: 200% 200%;
     -webkit-animation: gradientAni 10s ease infinite;
     -moz-animation: gradientAni 10s ease infinite;
