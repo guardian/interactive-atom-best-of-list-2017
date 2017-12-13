@@ -6,3 +6,8 @@ build/
 .local/
 yarn.lock
 .DS_Store
+build/boot.js
+build/embed.html
+build/main.css.map
+build/main.js
+build/main.js.map
