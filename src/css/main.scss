@@ -15,6 +15,8 @@ $comment-main-2: #ff9b0b;
 
 $color1: $features-support-2;
 $color2: $features-support-4;
+
+$ani-duration: 25s;
             
 //@import "fonts";
 
@@ -192,49 +194,77 @@ $color2: $features-support-4;
 
 .year-review--images.active.setone .year-review--cut.one {
     animation: aniOne infinite;
-    animation-duration: 15s;
+    animation-duration: $ani-duration;
     animation-fill-mode: forwards;
     -webkit-animation: aniOne infinite;
-    -webkit-animation-duration: 15s;
+    -webkit-animation-duration: $ani-duration;
     -webkit-animation-fill-mode: forwards;
     -moz-animation: aniOne infinite;
-    -moz-animation-duration: 15s;
+    -moz-animation-duration: $ani-duration;
     -moz-animation-fill-mode: forwards;
     -ms-animation: aniOne infinite;
-    -ms-animation-duration: 15s;
+    -ms-animation-duration: $ani-duration;
     -ms-animation-fill-mode: forwards;
 }
 .year-review--images.active.setone .year-review--cut.two {
     animation: aniTwo infinite;
-    animation-duration: 15s;
+    animation-duration: $ani-duration;
     animation-fill-mode: forwards;
     -webkit-animation: aniTwo infinite;
-    -webkit-animation-duration: 15s;
+    -webkit-animation-duration: $ani-duration;
     -webkit-animation-fill-mode: forwards;
     -moz-animation: aniTwo infinite;
-    -moz-animation-duration: 15s;
+    -moz-animation-duration: $ani-duration;
     -moz-animation-fill-mode: forwards;
     -ms-animation: aniTwo infinite;
-    -ms-animation-duration: 15s;
+    -ms-animation-duration: $ani-duration;
     -ms-animation-fill-mode: forwards;
 }
 
 .year-review--images.active.setone .year-review--cut.three {
     animation: aniThree infinite;
-    animation-duration: 15s;
+    animation-duration: $ani-duration;
     animation-fill-mode: forwards;
     -webkit-animation: aniThree infinite;
-    -webkit-animation-duration: 15s;
+    -webkit-animation-duration: $ani-duration;
     -webkit-animation-fill-mode: forwards;
     -moz-animation: aniThree infinite;
-    -moz-animation-duration: 15s;
+    -moz-animation-duration: $ani-duration;
     -moz-animation-fill-mode: forwards;
     -ms-animation: aniThree infinite;
-    -ms-animation-duration: 15s;
+    -ms-animation-duration: $ani-duration;
     -ms-animation-fill-mode: forwards;
 }
 
+.year-review--images.active.setone .year-review--cut.four {
+    animation: aniFour infinite;
+    animation-duration: $ani-duration;
+    animation-fill-mode: forwards;
+    -webkit-animation: aniFour infinite;
+    -webkit-animation-duration: $ani-duration;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation: aniFour infinite;
+    -moz-animation-duration: $ani-duration;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation: aniFour infinite;
+    -ms-animation-duration: $ani-duration;
+    -ms-animation-fill-mode: forwards;
+}
 
+.year-review--images.active.setone .year-review--cut.five {
+    animation: aniFive infinite;
+    animation-duration: $ani-duration;
+    animation-fill-mode: forwards;
+    -webkit-animation: aniFive infinite;
+    -webkit-animation-duration: $ani-duration;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation: aniFive infinite;
+    -moz-animation-duration: $ani-duration;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation: aniFive infinite;
+    -ms-animation-duration: $ani-duration;
+    -ms-animation-fill-mode: forwards;
+}
 
 .review-background {
     background: linear-gradient(0deg, $color1, $color2);  
