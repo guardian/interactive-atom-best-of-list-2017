@@ -19,12 +19,10 @@ export function init(el, context, config, mediator) {
         shareEl.addEventListener('click',() => shareFn(network));
     });
     
-
-
-    
-    document.addEventListener("scroll", scrollAdInlineAdListener);   
+    window.addEventListener('scroll', scrollAdInlineAdListener);   
 
     function scrollAdInlineAdListener(){
+        console.log('scrollin')
         var adWidth = document.querySelector('.ad-slot--inline1').offsetWidth;
 
         if (adWidth === 620){

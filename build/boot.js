@@ -16,16 +16,16 @@ define([], function() {
             el.innerHTML = '<div style="font-size: 24px; text-align: center; padding: 72px 0; font-family: \'Guardian Egyptian Web\',Georgia,serif;">Loading…</div>';
 
             config = {
-                'assetPath': 'https://interactive.guim.co.uk/2017/11/review-list-enhancers/albums/1513100201340'
+                'assetPath': 'https://interactive.guim.co.uk/2017/11/review-list-enhancers/albums/1513262835001'
             };
 
             // Load CSS asynchronously
             window.setTimeout(function() {
-                addCSS('https://interactive.guim.co.uk/2017/11/review-list-enhancers/albums/1513100201340/main.css');
+                addCSS('https://interactive.guim.co.uk/2017/11/review-list-enhancers/albums/1513262835001/main.css');
             }, 10);
 
             // Load JS and init
-            require(['https://interactive.guim.co.uk/2017/11/review-list-enhancers/albums/1513100201340/main.js'], function(main) {
+            require(['https://interactive.guim.co.uk/2017/11/review-list-enhancers/albums/1513262835001/main.js'], function(main) {
                 main.init(el, context, config, mediator);
             }, function(err) { console.error('Error loading boot.', err); });
         }
