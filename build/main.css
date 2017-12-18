@@ -11,15 +11,6 @@
   /* clearfix */ }
 
 #article h2, .prose h2 {
-  position: relative;
-  margin-top: -52px;
-  margin-right: 12px;
-  margin-bottom: 2px;
-  margin-left: 70px !important;
-  font-size: 22px !important;
-  line-height: 27px !important;
-  font-family: "Guardian Egyptian Web", Georgia, serif;
-  font-weight: 900 !important;
   color: #b82266; }
   #article h2.contributions__title contributions__title--epic, .prose h2.contributions__title contributions__title--epic {
     position: relative;
@@ -33,78 +24,8 @@
     font-weight: 900 !important;
     color: #333 !important; }
 
-@media all and (min-width: 740px) {
-  #article h2, .prose h2 {
-    margin-top: -54px;
-    margin-right: 12px;
-    margin-bottom: 2px;
-    margin-left: 80px !important;
-    font-size: 22px !important;
-    line-height: 28px !important; } }
-
-.prose h2 {
-  margin-top: -64px;
-  margin-bottom: 8px; }
-
-#article sup, .prose sup {
-  position: relative;
-  display: inline;
-  float: left !important;
-  margin-left: 70px !important;
-  margin-top: 3px !important;
-  font-size: 16px !important;
-  line-height: 24px !important;
-  font-family: "Guardian Text Egyptian Web", Georgia, serif;
-  font-weight: normal;
-  font-weight: 400;
-  vertical-align: none !important; }
-
-@media screen and (min-width: 740px) {
-  #article sup, .prose sup {
-    margin-top: 0 !important;
-    font-size: 18px !important;
-    line-height: 28px !important;
-    margin-left: 80px !important; } }
-
-.prose sup {
-  margin-bottom: 18px; }
-
-#article sub, .prose sub {
-  position: relative;
-  display: inline;
-  font-size: 60px !important;
-  margin: 0 0 36px !important;
-  line-height: 24px !important;
-  font-family: "Guardian Sans Web", Georgia, serif;
-  font-weight: 100;
-  color: #b82266 !important;
-  vertical-align: none !important; }
-
 #article .in-body-link--immersive, .prose .in-body-link--immersive {
   color: #b82266; }
-
-#article p:before, .prose p:before {
-  content: "";
-  display: table;
-  clear: both;
-  height: 6px; }
-
-#article p:after, .prose p:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-#article .submeta__head, .prose.submeta__head {
-  font-size: 0.75rem !important;
-  line-height: 1rem !important;
-  font-family: "Guardian Text Sans Web", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif !important;
-  color: #767676 !important;
-  font-weight: bold !important;
-  padding: 0.25rem 0 0.75rem !important;
-  float: left !important;
-  margin-right: 0.625rem !important;
-  margin-top: 0 !important;
-  margin-left: 0 !important; }
 
 .element--immersive {
   margin-bottom: 0 !important; }
