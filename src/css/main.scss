@@ -16,7 +16,7 @@ $comment-main-2: #ff9b0b;
 $color1: $features-support-2;
 $color2: $features-support-4;
 
-$ani-duration: 25s;
+$ani-duration: 30s;
             
 //@import "fonts";
 
@@ -262,6 +262,21 @@ $ani-duration: 25s;
     -moz-animation-duration: $ani-duration;
     -moz-animation-fill-mode: forwards;
     -ms-animation: aniFive infinite;
+    -ms-animation-duration: $ani-duration;
+    -ms-animation-fill-mode: forwards;
+}
+
+.year-review--images.active.setone .year-review--cut.six {
+    animation: aniSix infinite;
+    animation-duration: $ani-duration;
+    animation-fill-mode: forwards;
+    -webkit-animation: aniSix infinite;
+    -webkit-animation-duration: $ani-duration;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation: aniSix infinite;
+    -moz-animation-duration: $ani-duration;
+    -moz-animation-fill-mode: forwards;
+    -ms-animation: aniSix infinite;
     -ms-animation-duration: $ani-duration;
     -ms-animation-fill-mode: forwards;
 }
